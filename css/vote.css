@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+
+*{
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+} 
+
+nav{
+	overflow: auto;
+	background: #2D2D96;
+	margin:0;
+	/*position for nav bar*/
+	position: relative;
+	height: 59.45px;
+	width: 1349px;
+} 
+
+nav ul{
+	margin: 0 0 0 250px;
+	list-style-type: none;
+}
+	 
+nav ul li {
+	float: right;
+	/*font-size: 17.3px;*/
+}
+
+nav ul li a {
+	position: relative;
+	width: 100px;
+	display: block;
+	padding: 20px 15px;
+	/*padding: 22px 24px;*/
+	text-decoration: none;
+	font-family: 'Roboto',sans-serif;
+	margin: 0px;
+	color: white;
+	text-align: center;
+}
+
+nav li a:hover{
+	background: #EE2652;
+	font-weight: bolder;
+}
+
+.logo {
+	/*position for nav logo*/
+	position: absolute;
+	margin-left: 10px;
+	z-index: 2;
+}
+
+header{
+	text-align: center;
+	margin: 20px;
+	width: 1325px;
+}
+
+header h1{
+	font-family: 'Montserrat', sans-serif;
+	margin: 30px;
+	font-size: 30px;
+}
+
+.steps{
+	width: 1180px;
+	height: 100px;
+	margin: 30px 90px 30px 90px;
+	position: relative;
+	font-size: 17px;
+}
+
+.step1, .step3, .step5{
+	float: left;
+	margin-right: 20px;
+}
+
+.step2, .step4, .step6{
+	float: right;
+	margin-left: 20px;
+}
+
+.step5{
+	margin: 40px 0 0 0; 
+}
+
+.content, .content5{
+	margin: 30px 0 0 0;
+}
+
+.content h3{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.content5 h3{
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 120px;
+}
+
+.content5 li{
+	margin-left: 120px;
+	/*reason why there is Scrollbar in navbar*/
+}
+
+.content5 p{
+	margin-left: 120px;
+}
+
+.content a{
+	color: blue;
+}
+
+.content a:hover{
+	color: #EE2652;
+}
+
+.references{
+	display: block;
+	background-color: #2D2D96;
+	color: white;
+	margin:0px;
+	position: relative;
+	width: 1309px;
+	padding: 20px;
+}
+
+.references a{
+	color: white;
+}
+
+.references a:hover{
+	font-weight: bold;
+}
+
+.references h3, ol{
+	margin: 0 15px;
+	font-size: 15px;
+}
+
+footer{
+	position: relative;
+	width: 1269px;
+	text-align: center;
+	background-color: #2D2D96;
+	padding: 40px;
+}
+
+.ig{
+	width: 40px; height: 40px;
+	margin: 10px;
+    background: url('../images/css_sprites.png') no-repeat -10px -10px;
+}
+.fb{
+    width: 40px; height: 40px;
+	margin: 10px;
+    background: url('../images/css_sprites.png') no-repeat -70px -10px;
+}
+
+.tw{
+    width: 40px; height: 40px;
+	margin: 10px;
+    background: url('../images/css_sprites.png') no-repeat -130px -10px;
+}
+
+.ig:hover, .fb:hover, .tw:hover{
+	opacity: 50%;
+}
+
+.contact {
+	/*position for footer*/
+	display: flex;
+	justify-content: center;
+}
+
+footer .copyright{
+	margin-top: 15px;
+	text-align: center;
+	font-size: 13 px;
+	color: white;
+}

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap');
+
+*{
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+} 
+
+nav{
+	overflow: auto;
+	background: #2D2D96;
+	margin:0;
+	/*position for nav bar*/
+	position: relative;
+	height: 59.45px;
+	width: 1349px;
+} 
+
+nav ul{
+	margin: 0 0 0 250px;
+	list-style-type: none;
+}
+	 
+nav ul li {
+	float: right;
+	/*font-size: 17.3px;*/
+}
+
+nav ul li a {
+	position: relative;
+	width: 100px;
+	display: block;
+	padding: 20px 15px;
+	/*padding: 22px 24px;*/
+	text-decoration: none;
+	font-family: 'Roboto',sans-serif;
+	margin: 0px;
+	color: white;
+	text-align: center;
+}
+ 
+nav li a:hover{
+	background: #EE2652;
+	font-weight: bolder;
+}
+
+.logo {
+	/*position for nav logo*/
+	position: absolute;
+	margin-left: 10px;
+	z-index: 2;
+}
+
+.video{
+	text-align: center;
+	margin: 20px;
+}
+
+body{
+	width: 1300px;
+	height: 2300px;
+}
+
+.video h2{
+	font-family: 'Montserrat', sans-serif;
+	margin: 20px 0 50px 0;
+}
+
+.pictures{
+	width: 384px;
+	height: 216px;
+	float: left;
+	display: flex;
+	margin: 20px 20px 20px 20px;
+}
+
+.article{
+	margin: 0 70px 90px 90px;
+	line-height: 23px;
+}
+
+.article h2{
+	font-family: 'Montserrat', sans-serif;
+	line-height: 28px;
+}
+
+.article p > a{
+	color: blue;
+}
+
+.article p > a:hover, .video p > a:hover {
+	color: #EE2652;
+}
+
+.article p > a:visited, .video p > a:visited {
+	color: #6F3782;
+}
+
+.news p{
+	font-size: 17px;
+}
+
+.animation{
+	margin: 0 0 90px 0;
+	text-align: center; 
+	animation: ribbon 1s infinite;
+}
+
+@keyframes ribbon{
+	0%{transform:translateY(0px);}
+	50%{transform:translateY(20px);}
+	100%{transform:translateY(0px);}
+}
+
+footer{
+	position: relative;
+	width: 1269px;
+	text-align: center;
+	background-color: #2D2D96;
+	padding: 40px;
+}
+
+.ig{
+	width: 40px; height: 40px;
+	margin: 10px;
+    background: url('../images/css_sprites.png') no-repeat -10px -10px;
+}
+.fb{
+    width: 40px; height: 40px;
+	margin: 10px;
+    background: url('../images/css_sprites.png') no-repeat -70px -10px;
+}
+
+.tw{
+    width: 40px; height: 40px;
+	margin: 10px;
+    background: url('../images/css_sprites.png') no-repeat -130px -10px;
+}
+
+.ig:hover, .fb:hover, .tw:hover{
+	opacity: 50%;
+}
+
+.contact {
+	/*position for footer*/
+	display: flex;
+	justify-content: center;
+}
+
+footer .copyright{
+	margin-top: 15px;
+	text-align: center;
+	font-size: 13 px;
+	color: white;
+}

@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+*{
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+} 
+
+nav{
+	overflow: auto;
+	background: #2D2D96;
+	margin:0;
+	/*position for nav bar*/
+	position: relative;
+	height: 59.45px;
+	width: 1349px;
+} 
+
+nav ul{
+	margin: 0 0 0 250px;
+	list-style-type: none;
+}
+	 
+nav ul li {
+	float: right;
+	/*font-size: 17.3px;*/
+}
+
+nav ul li a {
+	position: relative;
+	width: 100px;
+	display: block;
+	padding: 20px 15px;
+	/*padding: 22px 24px;*/
+	text-decoration: none;
+	font-family: 'Roboto',sans-serif;
+	margin: 0px;
+	color: white;
+	text-align: center;
+}
+ 
+nav li a:hover{
+	background: #EE2652;
+	font-weight: bolder;
+}
+
+.logo {
+	/*position for nav logo*/
+	position: absolute;
+	margin-left: 10px;
+	z-index: 2;
+}
+
+body{
+	position: relative;
+}
+
+.content{
+	display: block;
+	margin: 15px;
+}
+
+p, td{
+	font-size: 17px;
+}
+
+th, h3{
+	font-size: 19px;
+}
+
+h1{
+	font-family: 'Lato', sans-serif;
+	font-size: 23px;
+	background-color:#EE2652; 
+	color: white;
+	text-transform: uppercase;
+}
+
+.info{
+	margin-top: 15px;
+}
+
+.record .funds{
+	margin-left: 7px;
+	margin-right: 20px;
+}
+
+.record, .record-bills h1{
+	text-indent: 15px;
+}
+
+.info, .edu, .gov{
+	margin-left: 465px;
+	/*position of top section*/
+	position: relative;
+	width: 883px;
+}
+
+.record, .record-bills{
+	/*position of lower section*/
+	position: relative;
+	width: 1349px;
+}
+
+.record-bills{
+	margin-top: 20px;
+}
+
+.info h1, .edu h1, .gov h1, .record h1, .record-bills h1{
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
+.gov li{
+	font-size: 17px;
+}
+
+.info h1, .edu h1, .gov h1{
+	text-indent: 10px;
+}
+
+.info b{
+	text-transform: none;
+}
+	
+table{
+	margin-left: 15px;
+	margin-right: 30px;
+}
+
+h4{
+	font-size: 19px;
+}
+
+b {
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 19px;
+}
+
+h3{
+	text-transform: uppercase;
+	text-indent: 10px;
+}
+	
+p{
+	text-indent: 10px;
+}
+
+.references{
+	display: block;
+	background-color: #2D2D96;
+	color: white;
+	margin:0px;
+	position: relative;
+	width: 1349px;
+}
+
+.references a{
+	color: white;
+}
+
+.references a:hover{
+	font-weight: bold;
+}
+
+.references h3, ol{
+	margin: 0 15px;
+	font-size: 15px;
+}
+
+footer{
+	position: relative;
+	width: 1269px;
+	text-align: center;
+	background-color: #2D2D96;
+	padding: 40px;
+}
+
+.ig{
+	width: 40px; height: 40px;
+	margin: 10px;
+    background: url('../images/css_sprites.png') no-repeat -10px -10px;
+}
+.fb{
+    width: 40px; height: 40px;
+	margin: 10px;
+    background: url('../images/css_sprites.png') no-repeat -70px -10px;
+}
+
+.tw{
+    width: 40px; height: 40px;
+	margin: 10px;
+    background: url('../images/css_sprites.png') no-repeat -130px -10px;
+}
+
+.ig:hover, .fb:hover, .tw:hover{
+	opacity: 50%;
+}
+
+.contact {
+	/*position for footer*/
+	display: flex;
+	justify-content: center;
+}
+
+footer .copyright{
+	margin-top: 15px;
+	text-align: center;
+	font-size: 13 px;
+	color: white;
+}
